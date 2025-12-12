@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    // ============================
-    // 1) التعامل مع الفورم (إرسال الرسالة)
-    // ============================
+    
     const form = document.querySelector("#contact form");
     form.addEventListener("submit", function(e) {
         e.preventDefault(); 
